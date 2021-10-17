@@ -59,7 +59,7 @@ echo "Commiting changes..."
 cd /output
 
 git add .
-git commit -m "$INPUT_COMMITMESSAGE"
+git commit -m "$INPUT_COMMITMESSAGE" --author="Aranganathan Rathinavelu <arangates@gmail.com>"
 
 # Push changes
 echo "Pushing changes..."
